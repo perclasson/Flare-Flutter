@@ -29,7 +29,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String _animationName = "idle";
 
-  final asset = AssetFlare(bundle: rootBundle, name: "assets/Filip.flr");
+  final asset =
+      AssetFlare(bundle: rootBundle, name: "assets/Success Check.flr");
 
   @override
   Widget build(BuildContext context) {
